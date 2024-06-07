@@ -40,3 +40,40 @@
 .read-the-docs {
   color: #888;
 }
+/* Ta bort bullet points från listan */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Justera stilen på listobjekten */
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Knappstil */
+button {
+  margin-left: 10px;
+}
+
+/* För att flytta texten till vänster */
+span {
+  flex-grow: 1;
+  text-align: left;
+}
+
+body {
+  background-color: darkblue;
+}
+h1{
+  font-family: "Helvetica Neue";
+}
+
+input {
+  font-family: "Al Bayan"
+  text-align: center;
+  justify-content: center;
+}
